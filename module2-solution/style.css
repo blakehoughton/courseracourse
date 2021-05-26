@@ -1,1 +1,42 @@
+body{
+	backgroud-colour: #0483c9;
+}
+header{
+	text-align: center;
+	font-size: 65px;
+}
+.fooditem{
+	margin: 15px;
+	padding: 10px;
+	border: 3px black;
+	width: 30%;
+	box-sizing: border-box;
+	background-color: #0bc904;
+}
+.menuitem{
+	text-align: center;
+	margin: 10px;
+	padding: 1px;
+	width: 50%;
+	box-sizing: border-box;
+	background-color: #c9ba04;
+	float: right;
+}
+/*Tablet View*/
+@media only screen and (min-width: 768px ) and (max-width:991px) {
+.menuitem{
+  width:46%;
+}
+.3{
+  width:95%;
+  margin-right: 10px;
+}
+}
 
+/*Mobile View*/
+@media only screen and (max-width: 767px) {
+.menuitem{
+  width:80%;
+  display: block;
+  margin: 10px auto;
+}
